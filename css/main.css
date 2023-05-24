@@ -279,10 +279,10 @@ Navbar
   align-items: center;
 }
 
-/* .nav-logo {
+.nav-logo {
   display: flex;
   align-items: center;
-} */
+}
 
 .nav-header img {
   width: 200px;
