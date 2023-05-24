@@ -365,6 +365,7 @@ Navbar
 
   .contact-link {
     margin-left: auto;
+    margin-right: 0;
   }
 }
 
