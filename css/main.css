@@ -580,6 +580,17 @@ About
   height: 300px;
 }
 
+@media screen and (min-width: 992px) {
+  .about-page {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px;
+    align-items: center;
+  }
+  .about-img {
+    height: 100%;
+  }
+}
+
 .featured-title {
   text-align: center;
 }
