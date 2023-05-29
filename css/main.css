@@ -608,8 +608,48 @@ contact page
 
 .contact-container {
   display: grid;
+  justify-content: center;
   gap: 2rem 3rem;
   padding: 3rem;
 }
 
 
+@media screen and (min-width: 992px) {
+  .contact-container {
+    grid-template-columns: 1fr 450px;
+    align-items: center;
+  }
+}
+
+/*
+=============== 
+tags page
+===============
+*/
+
+.tags-wrapper {
+  display: grid;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+.tag {
+  background-color: var(--grey-500);
+  color: var(--white);
+  border-radius: var(--borderRadius);
+  text-align: center;
+  padding: 0.75rem 0;
+  transition: var(--transition);
+}
+
+.tag:hover {
+  background-color: var(--primary-500);
+}
+
+.tag h5, .tag p {
+  margin-bottom: 0;
+}
+
+.tag h5 {
+  font-weight: 600;
+}
