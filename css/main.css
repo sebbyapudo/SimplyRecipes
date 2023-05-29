@@ -653,3 +653,15 @@ tags page
 .tag h5 {
   font-weight: 600;
 }
+
+@media screen and (min-width: 576px) {
+  .tags-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .tags-wrapper {
+    grid-template-columns: repeat(3, 1frs);
+  }
+}
