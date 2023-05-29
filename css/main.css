@@ -674,7 +674,7 @@ single recipe page
 
 .recipe-hero {
   display: grid;
-  grid-area: 3rem;
+  gap: 3rem;
 }
 
 .recipe-hero-img {
@@ -682,8 +682,8 @@ single recipe page
   border-radius: var(--borderRadius); 
 }
 
-.recipe-info p {
-  color: var(--grey-600);
+.recipe-hero p {
+  color: var(--grey-500);
 }
 
 .recipe-icons {
@@ -722,4 +722,11 @@ single recipe page
   padding: 0.05rem 0.5rem;
   margin: 0 0.25rem;
   text-transform: capitalize;
+}
+
+@media screen and (min-width: 992px) {
+  .recipe-hero {
+    grid-template-columns: 4fr 5fr;
+    align-items: center;
+  }
 }
