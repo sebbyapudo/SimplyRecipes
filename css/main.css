@@ -595,6 +595,21 @@ About
   text-align: center;
 }
 
+/*
+=============== 
+contact page
+===============
+*/
 
+.contact-form {
+  width: 100%;
+  margin: 0;
+}
+
+.contact-container {
+  display: grid;
+  gap: 2rem 3rem;
+  padding: 3rem;
+}
 
 
